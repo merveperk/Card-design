@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #3E6CFF;
+    --secondary-color: #4EC54E;
+    --warning-color: #FDEA19;
+    --danger-color: #D65151;
+    --dark-color:#3A3A3A;
+    --light-color:#FCFCFC;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+.btn-warning{
+    background-color: var(--warning-color);
+    color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+}
+.btn-danger{
+    background-color: #D65151;
+    color: var(--light-color)
+}
